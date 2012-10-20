@@ -1,0 +1,3 @@
+php_value session.save_handler 'user'
+php_value session.save_path 'php_sessions'
+php_value auto_prepend_file '/path/to/mysql_session_handler.php'

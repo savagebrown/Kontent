@@ -1,0 +1,4 @@
+$Id: CHANGES,v 1.1 2003/06/01 21:36:50 harry Exp $
+
+Version 1.0 (March 02, 2003)
+- Port of PostgreSQL Session Handler for PHP to MySQL

@@ -1,0 +1,37 @@
+MySQL Session Handler for PHP
+
+A port of PostgreSQL Session Handler for PHP
+
+Copyright (c) 2000-2003 by Jon Parise <jon@php.net>
+http://www.csh.rit.edu/~jon/projects/pgsql_session_handler/
+
+Ported by Harry Fuecks <hfuecks@phppatterns.com>
+
+Using the MySQL session handler is quite simple.  Start by creating a
+new database table (relation) to hold the session data.
+
+	% mysql database < php_sessions.sql
+
+(Remember to replace 'database' with the name of your database.)
+
+Next, modify the database connection parameters.  These are defined in the
+$params string in the pgsql_session_open() function.  For detailed
+information on the format of the connection string, see:
+
+	http://www.php.net/manual/function.mysql-connect.php
+    http://www.php.net/manual/function.mysql-select-db.php
+
+Lastly, you'll need to tell PHP to use the session handler.  There are two
+ways by which this can be accomplished.
+
+1.	Locally, via an .htaccess file:
+
+	php_value session.save_handler 'user'
+	php_value session.save_path 'php_sessions'
+	php_value auto_prepend_file '/path/to/mysql_session_handler.php'	
+
+2.	Globally, via the php.ini file:
+
+	session.save_handler = 'user'
+	session.save_path = 'php_sessions'
+	auto_prepend_file = '/path/to/mysql_session_handler.php'	

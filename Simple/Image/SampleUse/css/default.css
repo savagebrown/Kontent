@@ -1,0 +1,25 @@
+html {   padding:0px;  margin:0px;}body {	background: #eee;	text-align: center;	font: small 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;	margin: 0;}a, a:visited {	color: #cc3300;	text-decoration: none;}h1 {	font-size: large;	color: #cc3300;	text-transform: uppercase;}h2 {	color: #cc3300;	font-size: small;	margin: 0;	padding: 0;
+	padding-bottom: 8px;}img {	padding: 4px;	background: #ffffff;	border-top: 1px solid #cccccc;	border-right: 1px solid #999999;	border-bottom: 1px solid #999999;	border-left: 1px solid #cccccc;}#container {width:720px;margin: 0px auto;padding:0px;text-align:left;
+	background: repeat-y left top url(../GalleryImages/bg.gif);
+}#left_sidebar {width:140px;padding:0px;float:left;}#content {width:255px;padding:0px;float:left;margin-left: 10px;}#right_sidebar {width:305px;padding:0px;float:left;margin-left: 10px;}
+
+#footer {
+	clear: both;
+	border-top: 1px solid #999999;
+	padding: 10px;
+	margin-top: 10px;
+	background: #eee;
+}#group_description {	border: 1px solid #999999;	background: #fffee1;	margin: 0 10px 0 0;	padding: 10px;	font-size: smaller;	color: #666666;}#header {
+border-bottom: 1px solid #999;
+border-right: 1px solid #999;
+border-left: 1px solid #999;
+padding: 10px 10px 10px 150px;
+margin-right: 10px;
+	background: white no-repeat url(../GalleryImages/header.jpg) left top;
+}
+
+#header em {
+	color: #999;
+	font-size: 80%;
+}#header h1 {	margin: 0;
+	padding: 0;}.box {	float: left;	padding: 0;	margin: 0 0 10px 0;	background: #ffffcc url('../GalleryImages/box_right.gif') no-repeat right top;}.box p.image {	padding: 20px 20px 5px 20px;	margin: 0;	background: url('../GalleryImages/box_left.gif') no-repeat left top;}.box p.caption {	padding: 0;	margin: 0;	background: url('../GalleryImages/box_left.gif') bottom left no-repeat;	padding-left: 20px;}.box p.caption em {	display: block;	padding: 5px 20px 20px 0px;	background: #ffffcc url('../GalleryImages/box_right.gif') no-repeat right bottom;	font-size: smaller;}.browser {	display: inline;	list-style: none;	margin: 0 0 10px;	padding: 3px;	float: left;	background: #E1E1E1;}.browser li {	list-style: none;	display: inline;	float: left;	margin: 0;	padding: 0;}.browser li a {	float: left;	display: block;	width: 26px;	height: 18px;	text-indent: -5000px;	font-size:.01em;}.browser li.first a {	background: url(../GalleryImages/browse_first.gif) no-repeat center top;}.browser li.first a:hover {	background: url(../GalleryImages/browse_first_over.gif) no-repeat center top;}.browser li.prev a {	background: url(../GalleryImages/browse_prev.gif) no-repeat center top;}.browser li.prev a:hover {	background: url(../GalleryImages/browse_prev_over.gif) no-repeat center top;}.browser li.next a {	background: url(../GalleryImages/browse_next.gif) no-repeat center top;}.browser li.next a:hover {	background: url(../GalleryImages/browse_next_over.gif) no-repeat center top;}.browser li.last a {	background: url(../GalleryImages/browse_last.gif) no-repeat center top;}.browser li.last a:hover {	background: url(../GalleryImages/browse_last_over.gif) no-repeat center top;}#thumbs {	float: left;	list-style: none;	display: inline;	margin: 0;	padding: 0;}#thumbs li {	float: left;	list-style: none;	display: inline;	margin: 0;	padding: 0;}#thumbs li.highlight a, #groups li.highlight a {	background: #ffff99 url(../GalleryImages/pink_halftone.gif) top left repeat;	color: #666;}#thumbs li a {	float: left;	margin: 0 5px 5px 0;	padding: 7px;	border: 1px solid #ccc;	border-right: 1px solid #999;	border-bottom: 1px solid #999;	background: white;}#thumbs li a:hover, #groups li a:hover {	background: #ffffcc;}#groups {	float: left;	list-style: none;	display: inline;	margin: 0 0 10px 0;	padding: 0;}#groups li {	float: left;	list-style: none;	display: inline;	margin: 3px 0;	padding: 0;}#groups li a {	display: block;	border: 1px solid #ccc;	padding: 3px;	width: 125px;	background: white;	font-size: smaller;	text-transform: uppercase;}p.blurb {	font-size: smaller;	padding: 0;	padding-bottom: 17px;	color: #999999;	clear: both;	margin: 10px 10px 0 0;	border-top: 1px solid #cccccc;	background: white url('../GalleryImages/blurb.gif') no-repeat left bottom;}p.blurb em {	display: block;	background: url('../GalleryImages/blurb_right.gif') repeat-y right top;	margin: 0;	padding: 2px 5px 4px 5px;	color: #336699;}p.blurb em.instruction {	padding: 10px;}
