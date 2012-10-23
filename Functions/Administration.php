@@ -4,7 +4,7 @@
 	 * Sets administration page variables
 	 *
 	 * @param object
-	 * @param intger
+	 * @param int
 	 * @return array
 	 * @author Savage Brown
 	 */
